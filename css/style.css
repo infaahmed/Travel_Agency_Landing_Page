@@ -1,0 +1,100 @@
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+    transition: all 0.3s ease;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Playfair Display', serif !important;
+}
+
+p{
+    font-family: 'Lato', sans-serif !important;  
+}
+
+html{
+    font-size: 62.5%;
+}
+
+main{
+    width: 100%;
+    height: auto !important;
+}
+
+/* banner area */
+/* section one background image */
+#section-1{
+    width: 100%;
+    min-height: 110vh !important;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Recreation area */
+.childDiv:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.innerText h3{
+    opacity: 0;
+}
+.innerText p{
+    opacity: 0;
+}
+.childDiv:hover h3{
+    opacity: 1;
+}
+.childDiv:hover p{
+    opacity: 1;
+}
+
+/* getaway area */
+#section-4 h3{
+    font-family: 'Lato', sans-serif !important;  
+}
+
+
+
+/* where to go area */
+#section-5 h3{
+    font-family: 'Lato', sans-serif !important;  
+    letter-spacing: 2px;
+}
+
+/* contact us area */
+#section-6 form button:hover{
+    background-color: #fff !important;
+    color: black !important;
+}
+
+#section-5 .learn_more{
+    font-size: 1.7rem;
+    color: black;
+    text-underline-offset: 1.5rem;
+    text-decoration-thickness: 1.1px;
+}
+
+#section-5 .learn_more:hover{
+    color: #a79770;
+}
+
+
+
+
+@media (max-width: 500px){
+    #section-1 button{
+        font-size: 1.3rem !important;
+
+    }
+
+    h1{
+        font-size: 3.5rem !important;
+    }
+
+    p{
+        font-size: 1.8rem !important;
+    }
+}
